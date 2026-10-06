@@ -54,7 +54,7 @@ source install/setup.bash
 
 使用 zsh 时将上述 `setup.bash` 换成 `setup.zsh`
 
-## 需要
+## 建议
 
 | 文件 | 需要完成的内容 |
 |---|---|
