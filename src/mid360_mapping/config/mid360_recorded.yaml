@@ -1,0 +1,12 @@
+mapping_node:
+  ros__parameters:
+    use_sim_time: true
+    input_type: livox_custom
+    lidar_topic: /livox/lidar_192_168_1_140
+    imu_topic: /livox/imu_192_168_1_140
+    map_frame: map
+    body_frame: body
+    map_output_path: ""
+# Recorded sensor frame: livox_frame (sampled message headers).
+# body is the intended estimator frame, not a measured sensor extrinsic.
+# Keep actual calibration/units in your chosen backend's configuration.

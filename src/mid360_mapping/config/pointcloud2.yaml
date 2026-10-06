@@ -1,0 +1,11 @@
+mapping_node:
+  ros__parameters:
+    use_sim_time: true
+    input_type: pointcloud2
+    lidar_topic: /livox/lidar
+    imu_topic: /livox/imu
+    map_frame: map
+    body_frame: body
+    map_output_path: "" # Set an absolute .pcd output path after implementing map storage.
+# Add only parameters that your implementation actually declares and uses.
+# Extrinsics and per-point time fields must come from the provided data, not guessed defaults.

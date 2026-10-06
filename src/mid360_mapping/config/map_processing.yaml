@@ -1,0 +1,12 @@
+map_processor_node:
+  ros__parameters:
+    use_sim_time: true
+    input_topic: /mapping/map
+    map_frame: map
+    output_directory: ""
+    voxel_size: 0.10
+    grid_resolution: 0.10
+    obstacle_height_min: 0.15
+    obstacle_height_max: 1.50
+# Starting values only: determine suitable thresholds from the gravity-aligned map.
+# The scaffold validates startup values but does not apply filtering or rasterization yet.
