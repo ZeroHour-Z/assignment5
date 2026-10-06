@@ -27,12 +27,13 @@
 
 README 中写清怎么运行、怎么保存地图，完成了什么内容，贴一张 rviz 截图（展示你的三维地图和二维地图的对齐效果）
 
-提交 github 链接到 2719850558@qq.com
+将代码推送到你的 Fork, 然后提交仓库链接到 2719850558@qq.com，格式为：第三次作业-班级-姓名（第三次作业-自动化2305-周湛昊）
 
-不要交编译完的内容上来，不要交 rosbag 上来。
+不要交编译完的内容上来，不要交 rosbag 上来
 
 ## 参考
 
+- [导航教程](https://www.zerohour.fun/blog/daily/2609/导航)
 - [Livox 驱动与消息接口](https://github.com/Livox-SDK/livox_ros_driver2)
 - [FAST-LIO](https://github.com/hku-mars/FAST_LIO) / [Point-LIO](https://github.com/hku-mars/Point-LIO)：自行确认所用实现支持 ROS 2 Humble。
 - [OccupancyGrid](https://github.com/ros2/common_interfaces/blob/humble/nav_msgs/msg/OccupancyGrid.msg) / [Nav2 地图读写](https://github.com/ros-navigation/navigation2/blob/humble/nav2_map_server/src/map_io.cpp)

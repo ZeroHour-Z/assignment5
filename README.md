@@ -1,4 +1,4 @@
-# RoboMaster Assignment 5：MID-360 建图与地图处理
+# RoboMaster assignment 5 Nav
 
 使用录好的雷达和 IMU 数据（rosbag），**建立三维地图、整理地图并导出二维地图**，最后比较不同参数的效果。具体见 [作业要求](docs/assignment.md)。
 
@@ -61,6 +61,16 @@ source install/setup.bash
 | [mapping_node.cpp](src/mid360_mapping/src/mapping_node.cpp) | 把雷达和 IMU 数据接入建图算法，输出地图与运动轨迹 |
 | [map_processor_node.cpp](src/mid360_mapping/src/map_processor_node.cpp) | 去掉杂点、减少点数，生成并保存二维地图 |
 
-`launch/`、`config/`、`rviz/` 均位于功能包内；`maps/` 用于保存输出，不纳入 Git。你可以调整工程结构与接口。
+将代码推送到你的 Fork, 然后提交仓库链接到 2719850558@qq.com，格式为：第三次作业-班级-姓名（第三次作业-自动化2305-周湛昊）
 
-完成后更新本 README，写清依赖版本、运行方法、自己的实现和两组参数结果，提交链接。
+完成后更新本 README，提交链接，具体见 [作业要求](docs/assignment.md)。
+
+## 在这里解释你的项目
+
+例如：
+
+如何编译：
+
+运行方式：
+
+[截图]()
