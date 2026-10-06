@@ -1,4 +1,4 @@
-# RoboMaster assignment 5 Nav
+# RoboMaster assignment 5 Mapping
 
 使用录好的雷达和 IMU 数据（rosbag），**建立三维地图、整理地图并导出二维地图**，最后比较不同参数的效果。具体见 [作业要求](docs/assignment.md)。
 
